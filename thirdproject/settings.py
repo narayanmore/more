@@ -27,9 +27,9 @@ STATIC_DIR=os.path.join(BASE_DIR,'static')
 SECRET_KEY = 'django-insecure-*mz-m#0c!74oe4#4utuzv&xi%w2725pmu(-^)-r1-75@h-ny_2'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['3.141.1.175']
 
 
 # Application definition
@@ -137,18 +137,7 @@ STATICFILES_DIRS=[
 ]
 #EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend' # new
 
-#MAIL_HOST = 'smtp.gmail.com' 
-#MAIL_HOST_USER = 'morenarayan045@gmail.com' 
-#MAIL_HOST_PASSWORD = 'Ganray@123' 
-#EMAIL_PORT = 587 
-#EMAIL_USE_TLS = True 
-#EMAIL_HOST = 'smtp.sendgrid.net'
-#MAIL_HOST_USER = 'narayan' # this is exactly the value 'apikey'
-#EMAIL_HOST_PASSWORD = '••••••••••••••••••••' # this is your API key
-#EMAIL_PORT = 587
-#EMAIL_USE_TLS = True
-#EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-#DEFAULT_FROM_EMAIL = 'morenarayan045@gmail.com' # this is the sendgrid email
+
 #
 #
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend' # new
