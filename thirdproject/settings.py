@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-*mz-m#0c!74oe4#4utuzv&xi%w2725pmu(-^)-r1-75@h-ny_2
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['3.141.1.175']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -147,4 +147,4 @@ EMAIL_HOST_USER = 'narayanmore2525@gmail.com' # new
 EMAIL_HOST_PASSWORD = 'Ganray@123' # new
 EMAIL_PORT = 587 # new
 EMAIL_USE_TLS = True # new
-#SENDGRID_API_KEY = os.environ.get("••••••••••••••••••••")
+
